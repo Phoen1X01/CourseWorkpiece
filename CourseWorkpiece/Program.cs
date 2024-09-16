@@ -1,7 +1,15 @@
+using CourseWorkpiece.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddRazorPages(); //подключение Razors
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("localDb")) //подключение бд
+);
 
 var app = builder.Build();
 
