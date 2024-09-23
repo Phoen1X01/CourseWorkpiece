@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CourseWorkpiece.Enums;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkpiece.Models
 {
@@ -8,9 +10,21 @@ namespace CourseWorkpiece.Models
         public int Id { get; set; }
 
         [Required]
-        public string TrafficName { get; set; }
+        public int TrafficNumber { get; set; }
 
         [Required]
-        public 
+        public TypeTraffic TypeTraffic { get; set; }
+
+        [Required]
+        public int StudentId { get; set; }
+        [Required]
+        [ForeignKey("StudentId")]
+        public Student Student { get; set; }
+
+        [Required]
+        public int LectureId { get; set; }
+        [Required]
+        [ForeignKey("LectureId")]
+        public Lecture Lecture { get; set; }
     }
 }

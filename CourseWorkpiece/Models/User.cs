@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkpiece.Models
 {
@@ -12,6 +14,10 @@ namespace CourseWorkpiece.Models
 
         [Required]
         public string PasswordHes { get; set; }
+
+        [ForeignKey("sGroup")]
+        public int sGroupId { get; set; }
+        public sGroup sGroup { get; set; }
 
     }
 }

@@ -13,5 +13,8 @@ namespace CourseWorkpiece.Models
 
         [Required]
         public DateTime Date { get; set; }
+
+        [Required]
+        public List<Traffic> Traffics { get; set; }
     }
 }
