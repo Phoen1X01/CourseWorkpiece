@@ -11,10 +11,9 @@ namespace CourseWorkpiece.Models
         [Required]
         public string NameGroup { get; set; }
 
-        [Required]
+        
         public User User { get; set; }
 
-        [Required]
         public List<Student> Students { get; set; }
     }
 }

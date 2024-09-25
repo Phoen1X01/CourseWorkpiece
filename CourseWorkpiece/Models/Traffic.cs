@@ -17,13 +17,13 @@ namespace CourseWorkpiece.Models
 
         [Required]
         public int StudentId { get; set; }
-        [Required]
+        
         [ForeignKey("StudentId")]
         public Student Student { get; set; }
 
         [Required]
         public int LectureId { get; set; }
-        [Required]
+        
         [ForeignKey("LectureId")]
         public Lecture Lecture { get; set; }
     }
