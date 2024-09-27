@@ -1,0 +1,315 @@
+﻿@{
+    ViewData["Title"] = "List";
+    ViewData["Navbar"] = true;
+    ViewData["css"] = "/css/List.css";
+
+}
+    <div class="container-fluid" style="margin-top: 1vh;">
+        <!--это добавление отступа в 1 процент-->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container-fluid"
+                     style="
+                            margin-top: 20px;
+                            margin-left: 5px;
+                            padding:15px;
+                            background-color: #FEFEFE;
+                            border-radius: 15px;
+                            height: 85vh;
+                            ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="../Picture/LogoCursWork.png"
+                                 class="mb-4"
+                                 style="width: 100%" />
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-secondary ">Отсутствующие</button>
+                                <button type="button" class="btn btn-secondary mt-3">Присутствующие</button>
+                                <button type="button" class="btn btn-secondary mt-3">Болеющие</button>
+                                <button type="button" class="btn btn-secondary mt-3 mb-5">Уважительная причина</button>
+                                <button type="button" class="btn btn-danger mt-5 col-sm-6 offset-sm-3">Выйти</button>
+                            </div><!-- Содержимое левого контейнера -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container-fluid"
+                     style="
+                            margin-top: 20px;
+                            padding:15px;
+                            background-color: #FEFEFEA0;
+                            border-radius: 15px;
+                            height: 85vh;
+                            ">
+                    <div class="row">
+                        <div class="d-flex col-md-12">
+                            <button type="button" class="me-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#lessonModal">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="20"
+                                     height="26"
+                                     fill="currentColor"
+                                     class="bi bi-calendar-week"
+                                     viewBox="0 0 16 16">
+
+                                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z" />
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                                </svg>
+                            </button>
+
+                            <!-- Модальное окно -->
+                            <div class="modal fade" id="lessonModal" tabindex="-1" aria-labelledby="lessonModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="lessonModalLabel">Выберите дату и номер пары</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="calendar"></div>
+                                            <div class="mt-3">
+                                                <label for="lessonNumber">Выберите номер пары:</label>
+                                                <select id="lessonNumber" class="form-select">
+                                                    <option value="1">Пара 1</option>
+                                                    <option value="2">Пара 2</option>
+                                                    <option value="3">Пара 3</option>
+                                                    <option value="4">Пара 4</option>
+                                                    <option value="5">Пара 5</option>
+                                                    <option value="6">Пара 6</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                            <button type="button" class="btn btn-primary" id="saveSelection">Сохранить выбор</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function createCalendar(container) {
+                                    const date = new Date();
+                                    const month = date.getMonth();
+                                    const year = date.getFullYear();
+
+                                    const calendar = document.createElement('div');
+                                    calendar.classList.add('calendar');
+
+                                    const table = document.createElement('table');
+                                    const header = document.createElement('thead');
+                                    const body = document.createElement('tbody');
+
+                                    header.innerHTML = `
+                                                                            <tr>
+                                                                                <th colspan="7">${date.toLocaleString('default', { month: 'long' })} ${year}</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Пн</th>
+                                                                                <th>Вт</th>
+                                                                                <th>Ср</th>
+                                                                                <th>Чт</th>
+                                                                                <th>Пт</th>
+                                                                                <th>Сб</th>
+                                                                                <th>Вс</th>
+                                                                            </tr>
+                                                                        `;
+                                    table.appendChild(header);
+
+                                    let currentDate = new Date(year, month, 1);
+                                    while (currentDate.getMonth() === month) {
+                                        const row = document.createElement('tr');
+                                        for (let i = 0; i < 7; i++) {
+                                            if (i === currentDate.getDay() || (i === 0 && currentDate.getDay() === 0)) {
+                                                const cell = document.createElement('td');
+                                                cell.textContent = currentDate.getDate();
+                                                cell.addEventListener('click', () => {
+                                                    const selectedCells = document.querySelectorAll('.calendar td.selected');
+                                                    selectedCells.forEach(selected => selected.classList.remove('selected'));
+                                                    cell.classList.add('selected');
+                                                });
+                                                row.appendChild(cell);
+                                                currentDate.setDate(currentDate.getDate() + 1);
+                                            } else {
+                                                row.appendChild(document.createElement('td'));
+                                            }
+                                        }
+                                        body.appendChild(row);
+                                    }
+                                    table.appendChild(body);
+                                    calendar.appendChild(table);
+                                    container.appendChild(calendar);
+                                }
+
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const calendarContainer = document.getElementById('calendar');
+                                    createCalendar(calendarContainer);
+
+                                    document.getElementById('saveSelection').addEventListener('click', () => {
+                                        const selectedDate = document.querySelector('.calendar td.selected');
+                                        const lessonNumber = document.getElementById('lessonNumber').value;
+                                        if (selectedDate) {
+                                            alert(`Вы выбрали: ${selectedDate.textContent} ${lessonNumber}`);
+                                        } else {
+                                            alert('Пожалуйста, выберите дату.');
+                                        }
+                                    });
+                                });
+                            </script>
+                            <form class="me-4 d-flex col-sm-6">
+                                <input class="form-control me-1" type="search" placeholder="Поиск" aria-label="Search">
+                                <button class="btn btn-outline-secondary" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </button>
+                            </form>
+                            <button type="button" class="me-3 btn btn-outline-secondary">+ Учасник группы</button>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="d-flex col-md-12 container-big">
+
+                            <table class="table mt-3 rounded-row" style="height: 80%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-center">ФИО</th>
+                                        <th scope="col" class="text-center">Отсутствующие</th>
+                                        <th scope="col" class="text-center">Присутствующие</th>
+                                        <th scope="col" class="text-center">Болеющие</th>
+                                        <th scope="col" class="text-center">Уважительная пр.</th>
+                                        <th scope="col" class="text-center">Удалить участника</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">Никольская Мария Артёмовна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Климова Виктория Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Воробьева Алина Макаровна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Леонова Виктория Матвеевна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Алексеев Михаил Артёмович</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Токарева Елизавета Максимовна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Павлов Дмитрий Даниилович</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Голубева Анастасия Ивановна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">Полякова Валерия Михайловна</th>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                        <td><input class="form-check-input col-sm-11 offset-sm-5" type="checkbox" value="" id="flexCheckDefault"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

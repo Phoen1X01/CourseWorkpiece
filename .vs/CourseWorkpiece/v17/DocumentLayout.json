@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\MyProjectsInGithub\\CourseWorkpiece\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\wwwroot\\css\\stat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\wwwroot\\css\\stat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\list\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\list\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\statcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\statcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\migrations\\20240925165324_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\migrations\\20240925165324_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\wwwroot\\css\\list.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\wwwroot\\css\\list.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +103,12 @@
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\enums\\typetraffic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\courseworkpiece.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\courseworkpiece.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +118,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stat.css",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Stat.css",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\Stat.css",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Stat.css*",
+              "RelativeToolTip": "CourseWorkpiece\\wwwroot\\css\\Stat.css*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-27T03:25:52.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\StatController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\StatController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\StatController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\StatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:18:32.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Stat\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Stat\\Index.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Stat\\Index.cshtml*",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\Stat\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T05:44:31.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.Development.json",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
+              "RelativeToolTip": "CourseWorkpiece\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T13:53:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\Auth\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T18:30:36.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\List\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\List\\Index.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\List\\Index.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\List\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:15:41.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T17:21:07.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20240925165324_Init.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
               "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
               "RelativeToolTip": "CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T16:53:24.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T04:35:36.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List.css",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\List.css",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\List.css",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\List.css",
+              "RelativeToolTip": "CourseWorkpiece\\wwwroot\\css\\List.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-25T19:23:13.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Auth.css",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Auth.css",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\Auth.css",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Auth.css",
+              "RelativeToolTip": "CourseWorkpiece\\wwwroot\\css\\Auth.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-25T18:52:40.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:21:57.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:38:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\ListController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\ListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:28:07.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Program.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:49:07.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T17:20:14.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CourseWorkpiece\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T17:20:06.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "sGroup.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\sGroup.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\sGroup.cs",
@@ -87,12 +348,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\sGroup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:16:28.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:16:28.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "Lecture.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Lecture.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Lecture.cs",
@@ -100,12 +360,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\Lecture.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:16:58.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:16:58.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\User.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\User.cs",
@@ -113,12 +372,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:15:43.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:15:43.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Student.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Student.cs",
@@ -126,12 +384,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:18:39.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:18:39.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Data\\ApplicationDbContext.cs",
@@ -139,12 +396,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA+wAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:46:42.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T13:46:42.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "Traffic.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Traffic.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Traffic.cs",
@@ -152,24 +408,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\Traffic.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:17:59.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:17:59.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\Program.cs",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
-              "RelativeToolTip": "CourseWorkpiece\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:49:07.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\ErrorViewModel.cs",
@@ -177,12 +420,11 @@
               "RelativeToolTip": "CourseWorkpiece\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:01:15.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T15:01:15.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "TypeTraffic.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Enums\\TypeTraffic.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Enums\\TypeTraffic.cs",
@@ -194,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "CourseWorkpiece.csproj",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\CourseWorkpiece.csproj",
               "RelativeDocumentMoniker": "CourseWorkpiece\\CourseWorkpiece.csproj",
@@ -206,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.json",
               "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.json",
@@ -215,18 +457,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-15T13:26:51.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.Development.json",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
-              "RelativeToolTip": "CourseWorkpiece\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T13:53:55.141Z"
             }
           ]
         }

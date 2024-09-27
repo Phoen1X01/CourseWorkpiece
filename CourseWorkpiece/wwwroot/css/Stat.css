@@ -1,0 +1,46 @@
+﻿body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url("../Picture/martin-martz-W0NRebXbsjM-unsplash.jpg"); /* подключение фоновой картинки*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 17px;
+}
+
+.footer-link {
+    font-size: 12px;
+    margin-right: 60px;
+}
+
+    .footer-link img {
+        width: 25px; /* Установите нужный размер изображения */
+        height: auto; /* Сохраняет пропорции изображения */
+        margin-right: 10px; /* Отступ между изображением и текстом */
+    }
+
+table {
+    border-collapse: separate; /* Разделяем границы ячеек */
+    border-spacing: 0 5px; /* Устанавливаем вертикальный отступ между строками */
+}
+
+
+.form-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-right {
+    width: 50vh;
+    height: 23vh;
+    overflow: auto;
+}
+
+.container-left {
+    width: 1000px;
+    height: 27vh;
+    overflow: auto;
+}

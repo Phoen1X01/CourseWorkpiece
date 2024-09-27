@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\CourseWorkpiece.bundle.scp.css"
     },
     {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Auth.css",
+      "PackagePath": "staticwebassets\\css\\Auth.css"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\List.css",
+      "PackagePath": "staticwebassets\\css\\List.css"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Stat.css",
+      "PackagePath": "staticwebassets\\css\\Stat.css"
+    },
+    {
       "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +255,18 @@
     {
       "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\picture\\5a75cf3f-a0e6-4e3e-86a2-60675202e775.jpg",
+      "PackagePath": "staticwebassets\\picture\\5a75cf3f-a0e6-4e3e-86a2-60675202e775.jpg"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\picture\\LogoCursWork.png",
+      "PackagePath": "staticwebassets\\picture\\LogoCursWork.png"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\picture\\martin-martz-W0NRebXbsjM-unsplash.jpg",
+      "PackagePath": "staticwebassets\\picture\\martin-martz-W0NRebXbsjM-unsplash.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CourseWorkpiece.Microsoft.AspNetCore.StaticWebAssets.props",

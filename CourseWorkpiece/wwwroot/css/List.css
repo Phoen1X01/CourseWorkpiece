@@ -1,0 +1,86 @@
+﻿body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url("../Picture/martin-martz-W0NRebXbsjM-unsplash.jpg"); /* подключение фоновой картинки*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 17px;
+}
+
+.footer-link {
+    font-size: 12px;
+    margin-right: 60px;
+}
+
+    .footer-link img {
+        width: 25px; /* Установите нужный размер изображения */
+        height: auto; /* Сохраняет пропорции изображения */
+        margin-right: 10px; /* Отступ между изображением и текстом */
+    }
+
+table {
+    border-collapse: separate; /* Разделяем границы ячеек */
+    border-spacing: 0 5px; /* Устанавливаем вертикальный отступ между строками */
+}
+
+
+.rounded-row th,
+.rounded-row td {
+    position: relative;
+    background-color: #fefefe;
+}
+
+    .rounded-row th:first-child,
+    .rounded-row td:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .rounded-row th:last-child,
+    .rounded-row td:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+.rounded-row:last-child th:first-child,
+.rounded-row:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.rounded-row:last-child th:last-child,
+.rounded-row:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+th {
+    font-weight: 400;
+}
+
+.container-big {
+    width: 10000px;
+    height: 75vh;
+    overflow: auto; /* Всегда показывает полосы прокрутки */
+}
+
+.calendar {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+    .calendar table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .calendar th, .calendar td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    .calendar .selected {
+        background-color: #007bff;
+        color: #fff;
+    }
