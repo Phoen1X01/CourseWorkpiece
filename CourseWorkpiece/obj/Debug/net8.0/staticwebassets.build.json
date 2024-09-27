@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cedh17D7zzkC+1GEYp65YAKuKzAeTowY/Wj1vgRY5v8=",
+  "Hash": "/QVi9yzK7JanQ034X9U3l3+3UbVW9E5XxtEEzW7Ry9k=",
   "Source": "CourseWorkpiece",
   "BasePath": "_content/CourseWorkpiece",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\Stat.js",
+      "SourceId": "CourseWorkpiece",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\",
+      "BasePath": "_content/CourseWorkpiece",
+      "RelativePath": "js/Stat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Stat.js"
     },
     {
       "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

@@ -18,6 +18,8 @@ namespace CourseWorkpiece.Data
         public DbSet<Traffic> Traffics { get; set; }
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Session> Sessions { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<sGroup>()
@@ -39,6 +41,11 @@ namespace CourseWorkpiece.Data
                 .HasMany(l => l.Traffics)
                 .WithOne(t => t.Lecture)
                 .HasForeignKey(t => t.LectureId);
+
+            modelBuilder.Entity<Session>()
+                .HasOne(w => w.User)
+                .WithMany(r => r.Sessions)
+                .HasForeignKey(y => y.UserId);
                 
 
 

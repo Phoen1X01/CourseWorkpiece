@@ -9,18 +9,18 @@
     <div class="row">
         <div class="col-md-4 offset-md-4">
             <div class="centered-form">
-                <form class="form-autification">
+                <form class="form-autification" action="" method="post"> <!--action это путь куда будем отправлять, а метод post это тип запроса-->
                     <img src="../Picture/LogoCursWork.png"
                          class="mb-4"
                          style="width: 100%" />  <!--подогнали картинку под ширину блока в котором она состоит-->
 
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Логин:</label>
-                        <input type="email"
+                        <input type="text"
                                class="form-control"
                                style="background-color: #D9D9D9;"
                                id="exampleInputEmail1"
-                               aria-describedby="emailHelp" />
+                               name="username" />
                     </div>
 
                     <div class="mb-5">
@@ -28,7 +28,8 @@
                         <input type="password"
                                class="form-control"
                                style="background-color: #D9D9D9;"
-                               id="exampleInputPassword1" />
+                               id="exampleInputPassword1"
+                               name="password"/>
                     </div>
 
                     <div class="mb-4 d-flex justify-content-center">

@@ -19,5 +19,8 @@ namespace CourseWorkpiece.Models
         public int sGroupId { get; set; }
         public sGroup sGroup { get; set; }
 
+        [Required]
+        public List<Session> Sessions { get; set; }
+
     }
 }
