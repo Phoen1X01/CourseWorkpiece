@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\MyProjectsInGithub\\CourseWorkpiece\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\migrations\\20240927165049_addsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\migrations\\20240927165049_addsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -33,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\views\\stat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\statcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|solutionrelative:courseworkpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{941274D7-9BAA-46B8-816A-FA08A5FED816}|CourseWorkpiece\\CourseWorkpiece.csproj|c:\\myprojectsingithub\\courseworkpiece\\courseworkpiece\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -134,11 +138,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Services\\AuthService.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Services\\AuthService.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Services\\AuthService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:12:02.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "20240927165049_addSessions.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Migrations\\20240927165049_addSessions.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Migrations\\20240927165049_addSessions.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Session.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Session.cs",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\List\\Index.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\List\\Index.cshtml",
@@ -177,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "StatController.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\StatController.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\StatController.cs",
@@ -190,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Stat.js",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\Stat.js",
               "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\js\\Stat.js",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "site.js",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\js\\site.js",
@@ -216,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Stat.css",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Stat.css",
               "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\Stat.css",
@@ -229,33 +246,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Stat\\Index.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Stat\\Index.cshtml",
               "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Stat\\Index.cshtml",
               "RelativeToolTip": "CourseWorkpiece\\Views\\Stat\\Index.cshtml",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwB8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-26T05:44:31.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.Development.json",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
-              "RelativeToolTip": "CourseWorkpiece\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T13:53:55.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Auth\\Index.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Auth\\Index.cshtml",
@@ -268,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Shared\\_Layout.cshtml",
@@ -281,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "20240925165324_Init.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Migrations\\20240925165324_Init.cs",
@@ -294,7 +298,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:38:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Program.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:49:07.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListController.cs",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\ListController.cs",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
+              "RelativeToolTip": "CourseWorkpiece\\Controllers\\ListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:28:07.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.Development.json",
+              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.Development.json",
+              "RelativeToolTip": "CourseWorkpiece\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T13:53:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -307,20 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CourseWorkpiece\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T18:38:09.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Data\\ApplicationDbContext.cs",
@@ -333,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\User.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\User.cs",
@@ -346,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "List.css",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\List.css",
               "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\List.css",
@@ -359,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Auth.css",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\css\\Auth.css",
               "RelativeDocumentMoniker": "CourseWorkpiece\\wwwroot\\css\\Auth.css",
@@ -372,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\HomeController.cs",
@@ -385,32 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ListController.cs",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\Controllers\\ListController.cs",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Controllers\\ListController.cs",
-              "RelativeToolTip": "CourseWorkpiece\\Controllers\\ListController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T19:28:07.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
-              "RelativeDocumentMoniker": "CourseWorkpiece\\Program.cs",
-              "ToolTip": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Program.cs",
-              "RelativeToolTip": "CourseWorkpiece\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:49:07.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\_ViewStart.cshtml",
@@ -422,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Views\\_ViewImports.cshtml",
@@ -434,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "sGroup.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\sGroup.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\sGroup.cs",
@@ -446,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Lecture.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Lecture.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Lecture.cs",
@@ -458,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Student.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Student.cs",
@@ -470,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Traffic.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\Traffic.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\Traffic.cs",
@@ -482,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Models\\ErrorViewModel.cs",
@@ -494,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "TypeTraffic.cs",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\Enums\\TypeTraffic.cs",
               "RelativeDocumentMoniker": "CourseWorkpiece\\Enums\\TypeTraffic.cs",
@@ -506,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CourseWorkpiece.csproj",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\CourseWorkpiece.csproj",
               "RelativeDocumentMoniker": "CourseWorkpiece\\CourseWorkpiece.csproj",
@@ -518,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\appsettings.json",
               "RelativeDocumentMoniker": "CourseWorkpiece\\appsettings.json",
