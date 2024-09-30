@@ -13,7 +13,7 @@ namespace CourseWorkpiece.Models
         public int TrafficNumber { get; set; }
 
         [Required]
-        public TypeTraffic TypeTraffic { get; set; }
+        public TypeTraffic TypeTraffic { get; set; } = TypeTraffic.None;
 
         [Required]
         public int StudentId { get; set; }

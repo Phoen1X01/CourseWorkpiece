@@ -8,6 +8,7 @@ namespace CourseWorkpiece.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
 
 
@@ -46,10 +47,14 @@ namespace CourseWorkpiece.Data
                 .HasOne(w => w.User)
                 .WithMany(r => r.Sessions)
                 .HasForeignKey(y => y.UserId);
-                
 
 
-        }
+			modelBuilder.Entity<Lecture>()
+		     .Property(l => l.Date)
+		     .HasConversion(
+			     v => v.ToDateTime(TimeOnly.MinValue),
+			     v => DateOnly.FromDateTime(v));
+		}
 
     }
 }

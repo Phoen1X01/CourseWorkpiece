@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace CourseWorkpiece.Models
 {
@@ -19,9 +20,11 @@ namespace CourseWorkpiece.Models
         [Required]
         public int sGroupId { get; set; }
         [ForeignKey("sGroupId")]
+        [JsonIgnore]
         public sGroup sGroup { get; set; }
 
-        
+
+        [JsonIgnore]
         public List<Traffic> Traffics { get; set; }
     }
 }

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\List.js",
+      "PackagePath": "staticwebassets\\js\\List.js"
+    },
+    {
       "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\Stat.js",
       "PackagePath": "staticwebassets\\js\\Stat.js"
     },
@@ -259,6 +263,10 @@
     {
       "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\pdf\\filename.pdf",
+      "PackagePath": "staticwebassets\\pdf\\filename.pdf"
     },
     {
       "Id": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\picture\\5a75cf3f-a0e6-4e3e-86a2-60675202e775.jpg",

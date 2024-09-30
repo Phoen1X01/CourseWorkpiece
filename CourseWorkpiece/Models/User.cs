@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace CourseWorkpiece.Models
 {
@@ -13,13 +14,16 @@ namespace CourseWorkpiece.Models
         public string Login { get; set; }
 
         [Required]
+        [JsonIgnore]
         public string PasswordHes { get; set; }
 
         [ForeignKey("sGroup")]
+        [JsonIgnore]
         public int sGroupId { get; set; }
         public sGroup sGroup { get; set; }
 
         [Required]
+        [JsonIgnore]
         public List<Session> Sessions { get; set; }
 
     }

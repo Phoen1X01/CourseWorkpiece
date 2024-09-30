@@ -12,7 +12,7 @@ namespace CourseWorkpiece.Models
         public int Number { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
 
         public List<Traffic> Traffics { get; set; }
     }

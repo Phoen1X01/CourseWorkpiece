@@ -1,83 +1,50 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CourseWorkpiece.Data;
+using CourseWorkpiece.Models.Stats;
+using CourseWorkpiece.Models;
+using CourseWorkpiece.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseWorkpiece.Controllers
 {
     public class StatController : Controller
     {
-        // GET: StatController
-        public ActionResult Index()
+        private readonly ApplicationDbContext _context;
+        private readonly ILogger<StatController> _logger;
+        private readonly IAuthService _authService;
+        private readonly IStatsService _statsService;
+
+        public StatController(
+            ApplicationDbContext context,
+            ILogger<StatController> logger,
+            IAuthService authService,
+            IStatsService statsService
+            )
         {
+            _context = context;
+            _logger = logger;
+            _authService = authService;
+            _statsService = statsService;
+        }
+
+
+        public async Task<IActionResult> Index()
+        {
+            User? user = await _authService.GetUser();
+            if (user == null) return Redirect("/");
+
             return View();
         }
 
-        // GET: StatController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
 
-        // GET: StatController/Create
-        public ActionResult Create()
+        public async Task<IActionResult> stats()
         {
-            return View();
-        }
+            User? user = await _authService.GetUser();
+            if (user == null) return Redirect("/");
 
-        // POST: StatController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+            StatsModel stats = await _statsService.GetStat(user.sGroup);
 
-        // GET: StatController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: StatController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: StatController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: StatController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return Json(stats);
         }
     }
 }

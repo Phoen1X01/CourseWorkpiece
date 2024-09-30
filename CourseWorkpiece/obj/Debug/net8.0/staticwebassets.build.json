@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/QVi9yzK7JanQ034X9U3l3+3UbVW9E5XxtEEzW7Ry9k=",
+  "Hash": "ldDGyyxgaLnZVJbo0yfBXUqgWPbV+VlDjJFGfTFWFtM=",
   "Source": "CourseWorkpiece",
   "BasePath": "_content/CourseWorkpiece",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\List.js",
+      "SourceId": "CourseWorkpiece",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\",
+      "BasePath": "_content/CourseWorkpiece",
+      "RelativePath": "js/List.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\List.js"
     },
     {
       "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\js\\site.js",
@@ -1269,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\pdf\\filename.pdf",
+      "SourceId": "CourseWorkpiece",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\",
+      "BasePath": "_content/CourseWorkpiece",
+      "RelativePath": "pdf/filename.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdf\\filename.pdf"
     },
     {
       "Identity": "C:\\MyProjectsInGithub\\CourseWorkpiece\\CourseWorkpiece\\wwwroot\\picture\\5a75cf3f-a0e6-4e3e-86a2-60675202e775.jpg",

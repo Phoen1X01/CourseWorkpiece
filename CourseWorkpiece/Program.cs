@@ -14,6 +14,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ILessonService, LessonService>();
+builder.Services.AddScoped<IStatsService, StatsService>();
 
 
 var app = builder.Build();
